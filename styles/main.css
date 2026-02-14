@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 24px auto;
+}
+
+main img {
+  max-width: 286px;
+}
