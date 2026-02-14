@@ -11,8 +11,15 @@
   gap: 32px;
 }
 
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
 #profile p {
   max-width: 384px;
+  font: var(--text-md);
 }
 
 #info {
@@ -26,4 +33,5 @@
   list-style-type: none;
   display: flex;
   gap: 8px;
+  font: var(--text-md);
 }
